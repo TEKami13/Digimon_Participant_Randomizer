@@ -20,7 +20,7 @@ Schwicky
 ---------------
 6
 Thalimon
-13,18,22
+0
 ---------------
 7
 GezondDenker
@@ -48,7 +48,7 @@ sAEGGI
 ---------------
 13
 Trigantix
-6,18,22
+0
 ---------------
 14
 Otakami
@@ -68,7 +68,7 @@ BlueLord
 ---------------
 18
 TEKami
-6,13,22,23,24
+23,24
 ---------------
 19
 Vidyamon
@@ -84,7 +84,7 @@ shayukitsune
 ---------------
 22
 SchraubenYeti
-6,13,18
+0
 ---------------
 23
 fliegenfuerst
