@@ -26,7 +26,8 @@ public class Starter {
         boolean nemesisMax3;
         boolean nemesisMax4;
 
-        int まじであんたはグーグルトランスレーターが使だった = 0;
+        int まじであんたはグーグルトランスレーターが使った = 0;
+        int wwww冗談だ = 0;
 
         Collections.shuffle(everyone);
 
@@ -43,15 +44,26 @@ public class Starter {
             nemesisMax4 = false;
 
             while (!addedParticipant) {
-                mRand = (int)(Math.random() * groupCount) + 1;
-                filledUp = false;
-                まじであんたはグーグルトランスレーターが使だった++;
 
+                まじであんたはグーグルトランスレーターが使った++;
 
-                if (まじであんたはグーグルトランスレーターが使だった == 99999) {
+                if (まじであんたはグーグルトランスレーターが使った == 9999) {
+                    wwww冗談だ++;
+                    g1.clear();
+                    g2.clear();
+                    g3.clear();
+                    g4.clear();
+                    まじであんたはグーグルトランスレーターが使った = 0;
+                }
+
+                if (wwww冗談だ == 999) {
                     System.out.println("Something went wrong, I can feel it.");
                     return;
                 }
+
+                mRand = (int)(Math.random() * groupCount) + 1;
+                filledUp = false;
+
 
                 switch (mRand) {
                     case 1 : {
@@ -78,7 +90,6 @@ public class Starter {
                         }
                         break;
                     }
-
                 }
                 if (!filledUp) {
                     if (!nemesisChecker(g1, g2, g3, g4, mRand, everyone.get(counter))) {
@@ -127,8 +138,12 @@ public class Starter {
                     }
                 }
                 if (nemesisMax1 && nemesisMax2 && nemesisMax3 && nemesisMax4) {
-                    System.out.println("Something's wrong I can feel it.");
-                    return;
+                    wwww冗談だ++;
+                    g1.clear();
+                    g2.clear();
+                    g3.clear();
+                    g4.clear();
+                    まじであんたはグーグルトランスレーターが使った = 0;
                 }
             }
         }
